@@ -17,6 +17,8 @@
 		71A50CDD1F5CA2BC00A172A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71A50CDB1F5CA2BC00A172A6 /* LaunchScreen.storyboard */; };
 		71A50CE81F5CA2BD00A172A6 /* PingPongTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A50CE71F5CA2BD00A172A6 /* PingPongTests.swift */; };
 		71A50CF31F5CA2BD00A172A6 /* PingPongUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A50CF21F5CA2BD00A172A6 /* PingPongUITests.swift */; };
+		71A50D011F5CB77100A172A6 /* LLPIXEL3.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 71A50D001F5CB77100A172A6 /* LLPIXEL3.ttf */; };
+		71A50D031F5CC48F00A172A6 /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A50D021F5CC48F00A172A6 /* MenuVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		71A50CEE1F5CA2BD00A172A6 /* PingPongUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PingPongUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		71A50CF21F5CA2BD00A172A6 /* PingPongUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PingPongUITests.swift; sourceTree = "<group>"; };
 		71A50CF41F5CA2BD00A172A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71A50D001F5CB77100A172A6 /* LLPIXEL3.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = LLPIXEL3.ttf; sourceTree = "<group>"; };
+		71A50D021F5CC48F00A172A6 /* MenuVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,9 +107,11 @@
 		71A50CCB1F5CA2BC00A172A6 /* PingPong */ = {
 			isa = PBXGroup;
 			children = (
+				71A50D001F5CB77100A172A6 /* LLPIXEL3.ttf */,
 				71A50CCC1F5CA2BC00A172A6 /* AppDelegate.swift */,
 				71A50CCE1F5CA2BC00A172A6 /* GameScene.sks */,
 				71A50CD01F5CA2BC00A172A6 /* Actions.sks */,
+				71A50D021F5CC48F00A172A6 /* MenuVC.swift */,
 				71A50CD21F5CA2BC00A172A6 /* GameScene.swift */,
 				71A50CD41F5CA2BC00A172A6 /* GameViewController.swift */,
 				71A50CD61F5CA2BC00A172A6 /* Main.storyboard */,
@@ -202,6 +208,7 @@
 				TargetAttributes = {
 					71A50CC81F5CA2BC00A172A6 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 87326TVXN2;
 						ProvisioningStyle = Automatic;
 					};
 					71A50CE21F5CA2BD00A172A6 = {
@@ -242,6 +249,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				71A50CD81F5CA2BC00A172A6 /* Main.storyboard in Resources */,
+				71A50D011F5CB77100A172A6 /* LLPIXEL3.ttf in Resources */,
 				71A50CCF1F5CA2BC00A172A6 /* GameScene.sks in Resources */,
 				71A50CDA1F5CA2BC00A172A6 /* Assets.xcassets in Resources */,
 				71A50CDD1F5CA2BC00A172A6 /* LaunchScreen.storyboard in Resources */,
@@ -271,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				71A50CD31F5CA2BC00A172A6 /* GameScene.swift in Sources */,
+				71A50D031F5CC48F00A172A6 /* MenuVC.swift in Sources */,
 				71A50CD51F5CA2BC00A172A6 /* GameViewController.swift in Sources */,
 				71A50CCD1F5CA2BC00A172A6 /* AppDelegate.swift in Sources */,
 			);
@@ -426,6 +435,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 87326TVXN2;
 				INFOPLIST_FILE = PingPong/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.machoman.PingPong;
@@ -438,6 +448,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 87326TVXN2;
 				INFOPLIST_FILE = PingPong/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.machoman.PingPong;
@@ -519,6 +530,7 @@
 				71A50CF91F5CA2BD00A172A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		71A50CFA1F5CA2BD00A172A6 /* Build configuration list for PBXNativeTarget "PingPongTests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +539,7 @@
 				71A50CFC1F5CA2BD00A172A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		71A50CFD1F5CA2BD00A172A6 /* Build configuration list for PBXNativeTarget "PingPongUITests" */ = {
 			isa = XCConfigurationList;
@@ -535,6 +548,7 @@
 				71A50CFF1F5CA2BD00A172A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
